@@ -1,7 +1,8 @@
-# virtual environments
+# ambientes virtuais
 venv/*
+eds/*
 
-# pip package
+# pacote pip
 get-pip.py
 
 # logs
