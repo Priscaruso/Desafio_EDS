@@ -1,0 +1,16 @@
+# configura serviço postgres usando a versão mais recente e credenciais específicas
+services:
+  postgres:
+    image: postgres:latest
+    container_name: eds
+    environment:
+      POSTGRES_DB: db_eds
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: secreta
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  
+volumes: 
+  postgres-data:
