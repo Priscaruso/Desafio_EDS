@@ -1,0 +1,8 @@
+# virtual environments
+venv/*
+
+# pip package
+get-pip.py
+
+# logs
+logs/*
