@@ -71,7 +71,7 @@ Obs: todos os comandos listados foram executados em um terminal do sistema Linux
 
 - rodar cada célula do jupyter notebook para executar o problema 10
 
-- acessar o banco pelo container docker para verificar as tabelas criadas nos problemas 5 e 6, substituindo <your_user> e <your_db> com as credenciais criadas
+- acessar o banco pelo container docker para verificar as tabelas criadas nos problemas 5 e 6
     ```
     docker exec -it eds psql -U docker -d db_eds
     \dt  # lista as tabelas do banco
