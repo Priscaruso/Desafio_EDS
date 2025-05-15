@@ -69,9 +69,7 @@ Obs: todos os comandos listados foram executados em um terminal do sistema Linux
 
     `python3.10 problema_9.py`
 
-- rodar o script python do problema 10
-
-    `python3.10 problema_10.py`
+- rodar cada célula do jupyter notebook para executar o problema 10
 
 - acessar o banco pelo container docker para verificar as tabelas criadas nos problemas 5 e 6, substituindo <your_user> e <your_db> com as credenciais criadas
     ```
